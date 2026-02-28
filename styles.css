@@ -78,8 +78,50 @@ background: transparent;
 border: none;
 }
 
+@media screen and (max-width: 732px)  {
+    .link-main {
+        display: none;
+    }
+    
+    .button-01 {
+        margin-left: 350px;
+    }
 
+    .logo-image {
+        display: block;
+        position: absolute;
+        margin-top: 450px;
+        margin-left: 50px;
+        width: 500px;
+        
+    }
+    h1 {
+        display: flex;
+        margin-top: -90px;
+        margin-right: 95px;
+        font-size: 50px;
+        text-align: center;
+        line-height: 50px;
+        
+        
        
+    }
+
+    p {
+        font-size: 28px;
+        text-align: center;
+        margin-right: 50px;
+    }
+
+    .button-02 {
+        display: block;
+        margin-left: 135px;
+        font-size: 30px;
+    }
+
+    
+    
+}
 
 
         
